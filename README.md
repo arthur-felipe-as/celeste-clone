@@ -7,8 +7,6 @@ Um simples projeto de gamedev em C++.
 Criando a pasta 'build' e inicializando o CMake:
 
 ```bash
-mkdir build
-
 cmake -S . -B build
 ```
 

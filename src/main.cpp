@@ -1,10 +1,10 @@
 #include <SFML/Graphics.hpp>
 
-#include "game_manager.hpp"
+#include "header/game_manager.hpp"
 
 int main()
 {
-	sf::RenderWindow window(sf::VideoMode({ 200, 200 }), "SFML works!");
+	sf::RenderWindow window(sf::VideoMode({ 1000, 1000 }), "SFML works!");
 	
 	GameManager game;
 

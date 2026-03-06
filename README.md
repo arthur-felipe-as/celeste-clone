@@ -19,6 +19,6 @@ cmake --build build
 Rodando o executável:
 
 ```bash
-./build/celeste
+./build/bin/main
 ```
 

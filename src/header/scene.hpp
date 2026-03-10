@@ -1,7 +1,10 @@
+#include <SFML/Graphics.hpp>
+#include <vector>
+
 class Scene{
-    private:
+private:
     std::vector<sf::Sprite> loaded_objects;
-    public:
+public:
     Scene();
     void scene_render(sf::RenderWindow &window);
 };

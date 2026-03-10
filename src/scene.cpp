@@ -1,6 +1,11 @@
+#include "header/scene.hpp"
 
-Scene::Scene(){}
+Scene::Scene()
+{
+    
+}
 
-void Scene::scene_render(sf::RenderWindow &window){
+void Scene::scene_render(sf::RenderWindow &window)
+{
         
-    }
+}

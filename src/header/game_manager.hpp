@@ -7,11 +7,11 @@
 
 class GameManager
 {
-Scene main_course;
+    Scene main_course;
 public:
     sf::Vector2f player = {0.0, 0.0};
+    sf::Vector2f player_speed = {0.0, 0.0};
     sf::CircleShape player_shape;
-    
 
     GameManager();
     

@@ -15,7 +15,7 @@ int main()
             game.process(window, event);
 		}
 
-		game.update(window, 1.0); // TODO: delta time calculation
+		game.update(window, 0.1); // TODO: delta time calculation
 		game.render(window);
 	}
 }

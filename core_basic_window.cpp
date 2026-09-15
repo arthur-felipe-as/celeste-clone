@@ -1,21 +1,18 @@
 #include "raylib.h"
 #include "bits/stdc++.h"
-
+#include "player.hpp"
 int main(){
     InitWindow(500, 500, "bom dia");
-    std::string texto_na_tela = "Congrats! You created your first window!";
-
+    Player p;
 
     while(!WindowShouldClose()){
-        for (int i = 0; i < texto_na_tela.size(); i++)
-        {
+        p.update();
                             BeginDrawing();
                                 ClearBackground(RAYWHITE);
-
-                                DrawText(&texto_na_tela[i] , 190, 200, 20, LIGHTGRAY);
+                                p.draw();
                             EndDrawing();                
         
-        }
+        
         
     }
     return 0;

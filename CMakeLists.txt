@@ -22,10 +22,11 @@ if (NOT raylib_FOUND) # If there's none, fetch and build raylib
 endif()
 
 # Our Project
-
-add_executable(${PROJECT_NAME} core_basic_window.cpp)
-#set(raylib_VERBOSE 1)
+add_executable(${PROJECT_NAME} src/main.cpp src/game_manager.cpp src/physics_component.cpp src/player.cpp)
 target_link_libraries(${PROJECT_NAME} raylib)
+target_compile_features(${PROJECT_NAME} PRIVATE cxx_std_23)
+
+# set(raylib_VERBOSE 1)
 
 # Web Configurations
 # Não acho que a genta vá precisar disso
